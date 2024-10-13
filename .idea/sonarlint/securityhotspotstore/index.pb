@@ -175,3 +175,6 @@ Napi-livraria-frontend/src/app/assunto/assunto-list/assunto-list.component.html
 Qapi-livraria-frontend/src/app/assunto/assunto-list/assunto-list.component.spec.ts,9\8\98fb6f3339f1b58377871d2007c06c3feabadd75
 }
 Mapi-livraria-frontend/src/app/assunto/assunto-list/assunto-list.component.css,d\a\daf9398aa3175232dedc9857b6e4b2aca63eb795
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

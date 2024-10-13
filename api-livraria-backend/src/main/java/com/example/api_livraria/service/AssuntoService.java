@@ -3,14 +3,19 @@ package com.example.api_livraria.service;
 import com.example.api_livraria.model.Assunto;
 import com.example.api_livraria.repository.AssuntoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-
+@Service
 public class AssuntoService {
 
-    @Autowired
-    private AssuntoRepository assuntoRepository;
+
+    private final AssuntoRepository assuntoRepository;
+
+    public AssuntoService(AssuntoRepository assuntoRepository) {
+        this.assuntoRepository = assuntoRepository;
+    }
 
     public List<Assunto> listarTodos() {
         return assuntoRepository.findAll();
