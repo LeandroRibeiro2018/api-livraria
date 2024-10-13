@@ -21,7 +21,7 @@ Angular 18
 
 ## Tecnologias Utilizadas
 - **
-Java 11
+Java 17
 **: Linguagem de programação principal.
 - **
 Spring Boot
