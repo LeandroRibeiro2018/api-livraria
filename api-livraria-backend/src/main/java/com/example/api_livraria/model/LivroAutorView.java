@@ -14,7 +14,6 @@ public class LivroAutorView {
 
     @Id
     private String isbn; // ou outro campo único
-
     private String autorNome;
     private String livroTitulo;
     private int anoPublicacao;

@@ -29,6 +29,8 @@ public class Livro {
 
     private String AnoPublicacao;
 
+    private Double preco;
+
     @ManyToMany
     @JoinTable(name = "livro_autor", joinColumns = @JoinColumn(name = "livro_id"),
             inverseJoinColumns = @JoinColumn(name = "autor_id"))
